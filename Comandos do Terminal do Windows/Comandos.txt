@@ -1,0 +1,9 @@
+cd = Muda de diretorio
+echo hello > nome do arquivo a ser criado
+cls = limpa a tela
+mkdir = cria uma pasta
+rmdir = exclui uma pasta
+dir = ve os diretorios
+cd / =  volta pro C:/
+del = deletar arquivos
+exit = sair

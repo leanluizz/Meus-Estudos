@@ -1,0 +1,7 @@
+Assim que a pessoa faz a requisição o HTTP pode mostrar os seguintes Status:
+
+Grupo dos 100 - Informação
+Grupo dos 200 - Sucesso
+Grupo dos 300 - Redirecionamento
+Grupo dos 400 - Erro
+Grupo dos 500 - Erro no server

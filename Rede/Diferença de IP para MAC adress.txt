@@ -1,0 +1,9 @@
+A diferença falando a grosso modo é que
+
+IP - É o endereço separado em 9 números (ex: 192.250.080) em que cada um deles so pode chegar até 250.
+O IP é o endereço que a sua CONEXÃO cria para identificar a rede que você está usando como se cada úsuario tivesse
+ter um diferente,lembrando que esse endereço muda toda vez que ele é atualizado.
+
+MAC adress - É o mesmo que o IP em questão de termos,tem 9 números porém a DIFERENÇA dos dois é que o endereço do MAC
+é identificado na placa mãe do dispositivo e  é lógico que não vai mudar,o número é fixo para cada máquina,e é usado para
+conectar o dispositivo em uma rede

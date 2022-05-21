@@ -1,0 +1,7 @@
+TCP (Transfer Conexion Protocol)é um conjunto de protocolos que segue o caminho:
+
+1) aplicação -  (Protocolos como HTTP (Web), FTP (Arquivos), FTTP (Arquivos), SMTP (E-mail)
+2) transporte e rede - Quebra em pequenos pedaços e coloca como se fosse em um envelope e depois envia
+3) interface - Ele reagrupa tudo e basicamente "joga" na sua tela o resultado
+
+ é ele que faz a ponte pra o IP receber os dados.
