@@ -1,0 +1,97 @@
+
+body{
+    background-image: url(estrelasbrilhando.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    margin: auto;
+    background-image: linear-gradient(to bottom ,rgb(7, 13, 51),rgba(31, 57, 128, 0.5), rgba(6, 39, 34, 0.521));
+    width: 400px;
+    height: 550px;
+    border-radius: 30px;
+}
+main:hover,
+main:focus{
+    transition: transform 1s;
+    transform: translateX(0) scale(1.2);
+    box-shadow: black 5px 10px 10px 5px;
+}
+.title{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+}
+#resultado{
+    background-color: rgb(46, 46, 46);
+    width: 395px;
+    margin: auto;
+    height: 50px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-size: large;
+    text-align: right;
+    border-radius: 10px;
+}
+.operadores2{
+    width: 70px;
+    height: 75px;
+    margin-left: 22px;
+    margin-top: 10px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border: none;
+    box-shadow: none;
+    font-size: 15pt;
+    border-radius: 100%;
+}
+.operadores{
+    width: 70px;
+    height: 75px;
+    margin-left: 22px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    box-shadow: none;
+    font-size: 15pt;
+    border-radius: 10px;
+}
+.operadores:hover,
+.apagar:hover,
+.raiz:hover,
+.operadores2:hover{
+    background-image:linear-gradient(to bottom,rgb(26, 26, 58), rgb(0, 0, 0));
+    transition: 0.5s;
+    color: white;
+}
+.apagar{
+    width: 120px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border: none;
+    box-shadow: none;
+    font-size: 20pt;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.raiz{
+    width: 70px;
+    height: 75px;
+    margin-right: 0px;
+    margin-left: 22px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    box-shadow: none;
+    font-size: 16pt;
+    border-radius: 10px;
+}

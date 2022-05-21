@@ -1,0 +1,60 @@
+
+body{
+    background-image: url(Pessoas.jpeg);
+    background-color: rgba(0, 0, 255, 0.767);
+    background-repeat: no-repeat;
+}
+div.log{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    display: flex;
+    justify-content: right;
+    padding-right: 2em;
+    padding-top: 1em;  
+}
+h1{
+    background-image: linear-gradient(to bottom, rgb(32, 32, 32), blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+div.name{
+    display: flex;
+    justify-content: right;
+    padding-right: 9em;
+    padding-top: 1em;
+}
+input{
+    background-color: rgba(0, 0, 255, 0);
+    font-size: 15pt;
+    border:none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    -webkit-transition:  0.4s  ease-in-out ;
+    transition:  0.4s  ease-in-out;
+    box-shadow: 0;
+    outline: 0;
+}
+input[type=text]:focus {
+    width: 25%;
+  }
+div#espaco{
+    padding-top: 50px;
+}
+div.btn{
+    display: flex;
+    justify-content: right;
+    padding-right: 10em;
+    padding-top: 1em;
+}
+button{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    box-shadow: 5px 10px 10px black;
+    border:transparent;
+    border-radius: 30px;
+    background-color: rgb(49, 0, 228);
+    color: white;
+}

@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+}
+header{
+    margin: 0px;
+}
+nav{
+    background-color: black;
+    width: 100%;
+     height: 150px;
+     padding-top: 1px;
+     color: white;
+     display: flex; /* Flex Box: dispara o flex box; */
+    justify-content: space-between; /* Flex Box: coloca itens entre eles 
+    Exemplo: bom para menu */
+    align-items: center; /* Flex Box: coloca itens alinhados no centro e precisa do "Justify-content:"  */
+}
+.flex{
+    line-height:40px;
+    
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    margin: auto;
+    text-align: center;
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin: auto;
+    text-align: center;
+}
+.imagens{
+    width: 100%; /*Flex Box: depende mt do tamanho e quantidade das divs */
+    height: 2100%;
+    margin: auto;
+}
+.imagens2{
+    width: 100%;  /*Flex Box: depende mt do tamanho e quantidade das divs */
+    height: 100%;
+    margin: auto;
+}
+.imagens3{
+    width: 100%;  /*Flex Box: depende mt do tamanho e quantidade das divs */
+    height: 100%;
+    margin: auto;
+}
+.imagens4{
+    width: 100%;  /*Flex Box: depende mt do tamanho e quantidade das divs */
+    height: 100%;
+    margin: auto;
+}
+
+.container{
+  width: 24%; /*Flex Box: depende mt do tamanho e quantidade das divs */
+  background-color: red;
+ text-align: center;
+  margin: auto;
+  margin-bottom: 5px;
+  border-radius: 5%;
+}
+.display-flex{
+    display: flex;
+    flex-direction:row;  /*Flex Box: deixa as divs alinhadas em forma de linha. */
+    flex-wrap: wrap; /* Acomoda os elementos em determinado tamanho tipo responsividade */
+}
+
+
+
+.container2{
+    width: 47%;  /*Flex Box: depende mt do tamanho e quantidade das divs */
+    background-color: red;
+   text-align: center;
+    margin: auto;
+    border-radius: 5%;
+    margin-bottom: 5px;
+  }
+.display-flex2{
+    display: flex;
+    flex-direction:row;/*Flex Box: deixa as divs alinhadas em forma de linha. */
+    flex-wrap: wrap;/* Acomoda os elementos em determinado tamanho tipo responsividade */
+}
+
+
+
+.container3{
+    width: 47%; /*Flex Box: depende mt do tamanho e quantidade das divs */
+    background-color: red;
+   text-align: center;
+    margin: auto;
+    border-radius: 5%;
+}
+.display-flex3{
+    display: flex;
+    flex-direction:column; /*Direção do flex está para coluna */
+    flex-wrap: wrap;/* Acomoda os elementos em determinado tamanho tipo responsividade */
+}
+   
+.display-grid{
+    display: grid;
+}
+.container4{
+    width: 45%; 
+    background-color: blue;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 5%;
+  }
+  .grid-container{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-column-gap: 20px;/*Entre linhas horizontais da grade */
+      grid-row-gap: 20px; /*Entre linhas verticais da grade */
+      margin: auto;
+      width: 90%;
+  }
+  .grid-item{
+      background-color: rgb(199, 38, 38);
+      border: blue 2px solid;
+      width: 100%;
+      font-size: 3vw;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .grid-item:hover{
+      background-color: rgb(223, 92, 92);
+  }
+
+
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap:10px;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-bottom:3px;
+  }
+  
+  .grid-container3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap:10px;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-bottom:3px;
+  }
+  .grid-container2 > div{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+   }
+  
+  .item1 {
+    grid-column-start:2; /* Consulta os numeros das linhas de grade (basicamente mostra o tamanhdo da caixa em começo */
+    grid-column-end:4; /* Consulta os numeros das linhas de grade (basicamente define o tamanho final do numero da grade */
+  }
+  .item5{
+   grid-column-start:1; /*Mude para 1 */
+    grid-column-end:5; /*Mude para 4 */
+  }

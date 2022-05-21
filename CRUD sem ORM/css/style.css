@@ -1,0 +1,90 @@
+/* Cell-Phone */
+@media (max-width: 800px) {
+    img{
+        display: none;
+    }
+    form{
+        margin-top: 20%;
+    }
+    input{
+        width: 100%;
+        text-align: center;
+    }
+    input[type = checkbox]{
+        width: 8%;
+    }
+}
+/* Form */
+#Box-form{
+    margin-top: 10px;
+}
+form{
+    font-size: 1.5vw;
+    background-color: rgb(49, 49, 49);
+    border: 6px solid rgb(44, 44, 44);
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 15px 15px;
+    height: 100%;
+    padding: 20px;
+}
+
+/* Title and texts */
+h2{
+    color: rgb(186, 149, 255);
+    font-weight: bold;
+}
+p{
+    color: rgb(186, 149, 255);
+}
+
+/* Inputs in order */
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px 15px;
+    border: 0;
+    box-shadow: 15px 15px black;
+    outline: 0;
+    overflow: hidden;
+}
+input:hover{
+    box-shadow: 20px 20px black;
+}
+.Flex-password{
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+}
+.confirm{
+    margin-top: 10px;
+}
+label{
+    color: white;
+}
+::placeholder{
+    font-size: 1.5vw;
+}
+
+/* Button */
+.Register{
+    margin-top:17px;
+    border-radius: 15px 15px;
+    width: 100%;
+    background-color: rgb(40, 1, 112);
+    border: 0;
+    outline: 0;
+    box-shadow: 15px 15px black;
+    color: white;
+}
+/* Image */
+img{
+    width: 50%;
+}
+
+/* Erro */
+.Erro{
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Martz90-Circle-Calculator.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <h1 class="title">Calculadora</h1>
+        <hr> 
+        <p id="resultado"></p>
+        <button onmouseenter="mudaCor()" onclick="insert('+')"class="operadores2" >+</button>
+        <button onmouseenter="mudaCor()" onclick="insert('-')" class="operadores2">-</button>
+        <button onmouseenter="mudaCor()" onclick="insert('*')" class="operadores2">x</button>
+        <button onmouseenter="mudaCor()" onclick="insert('/')" class="operadores2">:</button>
+        <br><button onmouseenter="mudaCor()" onclick="insert('/2')" class="raiz">√</button>
+       
+        <button onmouseenter="mudaCor()" onclick="insert('1')"class="operadores" >1</button>
+        <button onmouseenter="mudaCor()" onclick="insert('2')" class="operadores">2</button>
+        <button onmouseenter="mudaCor()" onclick="insert('3')" class="operadores">3</button>
+        <button onmouseenter="mudaCor()" onclick="insert('4')" class="operadores">4</button>
+
+        <button onmouseenter="mudaCor()" onclick="insert('5')"class="operadores" >5</button>
+        <button onmouseenter="mudaCor()" onclick="insert('6')" class="operadores">6</button>
+        <button onmouseenter="mudaCor()" onclick="insert('7')" class="operadores">7</button>
+        <button onmouseenter="mudaCor()" onclick="insert('8')" class="operadores">8</button>
+        <button onmouseenter="mudaCor()" onclick="insert('9')"class="operadores" >9</button>
+        <button onmouseenter="mudaCor()" onclick="insert('0')" class="operadores">0</button>
+        <button onmouseenter="mudaCor()" onclick="insert('*10*10000000')" class="operadores">ENG</button>
+        <button onmouseenter="mudaCor()" onclick="apagar()"   class="apagar" >C</button>
+        <button onmouseenter="mudaCor()" onclick="calcular()" class="apagar">=</button>
+        <button onmouseenter="mudaCor()" onclick="insert('.')" class="operadores2">.</button>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>
