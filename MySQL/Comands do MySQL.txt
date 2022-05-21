@@ -1,0 +1,22 @@
+SHOW DATABASES; = Mostra os bancos de dados
+CREATE DATABASE Nome do banco de dados; = Cria um banco de dados
+DROP DATABASE Nome do banco de dados;
+USE Nome do banco de dados; = Usa ele 
+CREATE TABLE; = Cria uma tabela
+SHOW TABLES; = mostra a tabela de dados do banco de dados usado
+DESCRIBE Nome do Banco de Dados; = Mostra toda estrutura do banco de dados
+INSERT INTO Nome da tabela do banco de dados = Inseri na tabela de banco de dados
+SELECT * from Nome da tabela do banco de dados = Mostra todos os que contém no banco de dados
+WHERE = Especifica quem vc quer achar na tabela
+
+     Condições no SQL
+
+SELECT 
+       case
+           WHEN nome da tabela = "algo" THEN "algo"
+       else "algo"
+from Database
+
+      Chaves primarias e secundarias     
+
+alter table nome da tabela add constraint nome da chave tipo da chave(primaria: primary key/estrangeira: foreign key)

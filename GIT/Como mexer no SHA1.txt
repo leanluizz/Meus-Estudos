@@ -1,0 +1,8 @@
+SHA1 gera chaves para segurança de arquivos
+ex: html,imagens,javascript entre outros..
+
+Para gerar uma chave vai ao terminal do GIT e digite
+
+openssl sha1 nome do arquivo.tipodoarquivo
+
+ele vai gerar uma chave nova cada vez que o arquivo for modificado
