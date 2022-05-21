@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icons8-Halloween-Bat.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style do personagem.css">
+    <link rel="stylesheet" href="style do index no cell.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.css">
+    <title>Bat Journal</title>
+</head>
+<body class="body">
+ <!--Cabeçario do site-->
+
+ <header class="header">
+   
+  <div class="menu-alinhado">
+    <a href="#" class="menu-open"><img id="icbat" src="icone.png" alt="icone" width="60px"></a>
+    <h1 class="flx">Menu</h1>
+  </div>
+  <input type="search" id="search" placeholder= "&#128270; Search">
+  <h1 id="titlebat" class="titlebat" class="titlebatcell">Bat Journal</h1>
+  <div class="overlay">
+</header>
+<hr>
+
+
+  <!--Menu de deslize do site-->
+  <div class="menu">
+    <h1 class="title">Bat Journal</h1>
+    <a href="#" class="menu-close">X</a>
+    <ul>
+      <li class="mnu"><a href="Jornal do Batman.html">Home</a></li>
+      <li class="mnu"><a href="Personagens.html">Personagens</a></li>
+      <li class="mnu"><a href="Contacts.html">Contato</a></li>
+      <li class="mnu"><a href="#">Guia de Leitura</a></li>
+    </ul>
+  </div>
+
+  <!--Parte da noticia gigante-->
+  <div class="display">
+
+  <main class="moldura">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="image1">
+          <img src="batman.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="dark">
+            <h5 class="text-description-h5">Batfamilly</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas architecto facere nesciunt consequuntur perspiciatis illum tenetur earum dignissimos quia, minus quo culpa exercitationem officiis ipsum rem velit corrupti dolorum!</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="batgirl.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          <div class="dark">
+            <h5 class="text-description-h5">Batgirl</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam aliquam veritatis architecto, laboriosam eveniet harum quam, deserunt error dolores velit fugit nesciunt consequuntur quibusdam pariatur explicabo alias tempora, dolorum iusto.</p>
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="superboy.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="dark">
+            <h5 class="text-description-h5">Superboy</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti recusandae quisquam et voluptate beatae quis? Repellendus sed consectetur commodi et. Rerum repellendus quia quisquam obcaecati accusantium sapiente maxime illo!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+  <!--Boas vindas-->
+  <div class="main">
+    <hr>
+    <div id="welc">
+
+   <img src="icone.png" alt="" width="200px" class="welcobat" id="right"> 
+   <h1 class="welcome">Welcome to Bat Journal !</h1>
+   <img src="icone.png" alt="" width="200px" class="welcobat" id="left"> 
+
+  </div>
+  <hr>
+</div>
+
+<!--Parte do News do site-->
+  <section class="section">
+    <h1 class="news">News</h1>
+    <div class="d-flex justify-content-center" id="news-boxes">
+      <div class="news-box-content">
+          <div>
+            <picture>
+              <img src="news bat exemplo.png" alt="bat-news">
+              <source media="(max-width:800px )" src="news-bat-exemplo-cell.png">
+            </picture>
+          </div>
+          <div>
+            <h4>Batman News</h4>
+            <p class="description-news-bat"> adipisicing elit. Officia fugit dignissimos rerum quae vel dolores quo placeat, reprehenderit reiciendis minima neque ab consequatur possimus asperiores aperiam inventore, non hic quidem!</p>
+          </div>
+      </div>
+
+      <div class="news-box-content">
+        <div>
+          <picture>
+            <source media="(max-width:500px)" srcset="">
+            <img src="new robin exemplo.png" alt="robin-news">
+          </picture>
+        </div>
+        <div class="black-description-news">
+          <h4>Robin News</h4>
+          <p class="description-news-bat"> adipisicing elit. Officia fugit dignissimos rerum quae vel dolores quo placeat, reprehenderit reiciendis minima neque ab consequatur possimus asperiores aperiam inventore, non hic quidem!</p>
+        </div>
+    </div>
+
+    <div class="news-box-content">
+      <div>
+        <picture>
+          <source media="(max-width:600px)" srcset="">
+          <img src="womens news exemplo.png" alt="bat-womens">
+        </picture>
+      </div>
+      <div >
+        <h4>Bat-Womens News</h4>
+        <p class="description-news-bat">adipisicing elit. Officia fugit dignissimos rerum quae vel dolores quo placeat, reprehenderit reiciendis minima neque ab consequatur possimus asperiores aperiam inventore, non hic quidem!</p>
+      </div>
+  </div>
+
+  <div class="news-box-content">
+    <div>
+      <picture>
+        <source media="(max-width:600px)" srcset="">
+        <img src="the-batman-viloes-1210x540.png" alt="villains news">
+      </picture>
+    </div>
+    <div>
+      <h4>The Villains News</h4>
+      <p class="description-news-bat">adipisicing elit. Officia fugit dignissimos rerum quae vel dolores quo placeat, reprehenderit reiciendis minima neque ab consequatur possimus asperiores aperiam inventore, non hic quidem!</p>
+    </div>
+</div>
+    </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!--Joker-->
+  <div id="joker">
+    <h1 class="jokes">Joker ~ ~</h1>
+    <p id="jokes">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut sapiente consequuntur, inventore exercitationem voluptatem perferendis impedit quos quaerat similique iusto ipsum cum suscipit praesentium at quidem cumque, minima sunt alias!"</p>
+  </div>
+
+
+  <!--Rodapé-->
+  <footer class="footer">
+    <h1 id="thnk">Thanks for visiting !</h1>
+    <img src="batfootergif.gif" alt="" width="200px" id="batfooter">
+    
+    
+    <div class="inline">
+
+    
+    <div class="redsocial">
+      <a href="https://www.facebook.com/leandro.luiz.3591/" target="_blank"><img src="facebook.png" alt=""width="50px" id="face" class="redsocial2"></a></li>
+      
+      <a href="https://www.linkedin.com/in/leandro-luiz-a022131bb/"target="_blank"><img src="linkedin.png" alt=""width="50px"id="link" class="redsocial2"></a></li>
+
+      <a href="https://github.com/PAC-git" target="_blank"><img src="github.png" alt="" width="50px" id="git" class="redsocial2"></li></a>
+    </div>
+
+    <div>
+    <ul class="inline" type="none">
+      
+      <a href="index.html" class="visit">
+        <li>Lorem ipsum, dolor sit </li>
+        <li>Lorem ipsum, dolor sit </li>
+        <li>Lorem ipsum, dolor sit </li>
+        <li>Lorem ipsum, dolor sit </li>
+      </a>
+    </ul>
+    
+    </div>
+
+    <div id="div">
+      <ul type ="none" class="inline">
+        
+      <a href="index.html" class="visit">
+        <li>Lorem ipsum, dolor sit </li>
+        <li>Lorem ipsum, dolor sit </li>
+        <li>Lorem ipsum, dolor sit </li>
+        <li>Lorem ipsum, dolor sit </li>
+      </a>
+    </ul>
+    </div>
+  </div>
+
+  <p id="copy">&copy; Leandro Luiz Ribeiro Gomes </p>
+
+  </footer>
+
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+  <script src="BOOTSTRAP/js/bootstrap.js"></script>
+</body>
+</html>
