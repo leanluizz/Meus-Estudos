@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom, rgb(9, 68, 92), black);
+    background-attachment: fixed;
+}
+div{
+    margin: auto;
+    background-image: linear-gradient(to bottom, yellow,rgb(172, 172, 15) );
+    width: 30vw;
+    height: 30vh;
+    border: white solid;
+    text-align: center;
+    box-shadow: 15px 15px black;
+    border-radius: 8px;
+}
+a, p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    color: rgb(0, 102, 255);
+    position: relative;
+    top: 18%;
+    text-decoration: none;
+}
+p{
+    font-size: 2vw;
+    color: black;
+}
+a:hover{
+    top: 10%;
+    transition: 0.5s;
+}
